@@ -9,17 +9,41 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var RedPlayerImg: UIImageView!
+    
+    @IBOutlet weak var BluePlayerImg: UIImageView!
+    
+    @IBOutlet weak var winningScreenDimm: UIView!
+    
+    @IBOutlet weak var winningScreenLbl: UIButton!
+    
+    @IBOutlet weak var restartGameBut: UIButton!
+    
+    @IBOutlet weak var infoLbl: UILabel!
+    
+    @IBOutlet weak var RedPlayerHpLbl: UILabel!
 
+    @IBOutlet weak var BluePlayerHpLbl: UILabel!
+    
+    @IBOutlet weak var RedAttackLbl: UILabel!
+    
+    @IBOutlet weak var BlueAttackLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func onRestartPressed(sender: AnyObject) {
     }
 
+    @IBAction func onRedAttackPressed(sender: AnyObject) {
+    }
+    
+    @IBAction func onBlueAttackPressed(sender: AnyObject) {
+    }
 
 }
 
