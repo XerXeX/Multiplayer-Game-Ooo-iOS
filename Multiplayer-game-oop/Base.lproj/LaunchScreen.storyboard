@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,32 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="oKZ-PM-GhA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GET YOUR FINGERS READY!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FZ-O3-gCn">
+                                <rect key="frame" x="24" y="205" width="553" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="189" id="HM9-4t-aUI"/>
+                                    <constraint firstAttribute="width" constant="553" id="vvO-4c-FFa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="33"/>
+                                <color key="textColor" red="1" green="0.063467777013076043" blue="0.1830293800186269" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.50894835989999998" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="3" height="3"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="oKZ-PM-GhA" secondAttribute="bottom" id="MsX-Cv-4UL"/>
+                            <constraint firstAttribute="trailing" secondItem="oKZ-PM-GhA" secondAttribute="trailing" id="Nyr-l9-xdR"/>
+                            <constraint firstItem="9FZ-O3-gCn" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="WXr-Qw-3j3"/>
+                            <constraint firstItem="9FZ-O3-gCn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="c3b-2t-xTk"/>
+                            <constraint firstItem="oKZ-PM-GhA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="t2T-VZ-PIy"/>
+                            <constraint firstItem="oKZ-PM-GhA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="tNM-l5-oXf"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +49,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="1024" height="677"/>
+    </resources>
 </document>

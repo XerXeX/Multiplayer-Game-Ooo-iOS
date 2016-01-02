@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var BlueAttackLbl: UILabel!
     
+    @IBOutlet weak var startBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,5 +46,7 @@ class ViewController: UIViewController {
     @IBAction func onBlueAttackPressed(sender: AnyObject) {
     }
 
+    @IBAction func onStartPressed(sender: AnyObject) {
+    }
 }
 
