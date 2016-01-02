@@ -16,6 +16,7 @@
 		0E2750581C373EFE00B0EF29 /* die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750541C373EFE00B0EF29 /* die.wav */; };
 		0E2750591C373EFE00B0EF29 /* club-bash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750551C373EFE00B0EF29 /* club-bash.wav */; };
 		0E27505A1C373EFE00B0EF29 /* knife-stab.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750561C373EFE00B0EF29 /* knife-stab.wav */; };
+		0E27505C1C37DAC500B0EF29 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E27505B1C37DAC500B0EF29 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0E2750541C373EFE00B0EF29 /* die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = die.wav; sourceTree = "<group>"; };
 		0E2750551C373EFE00B0EF29 /* club-bash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "club-bash.wav"; sourceTree = "<group>"; };
 		0E2750561C373EFE00B0EF29 /* knife-stab.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "knife-stab.wav"; sourceTree = "<group>"; };
+		0E27505B1C37DAC500B0EF29 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				0E2750481C37384F00B0EF29 /* Assets.xcassets */,
 				0E27504A1C37384F00B0EF29 /* LaunchScreen.storyboard */,
 				0E27504D1C37384F00B0EF29 /* Info.plist */,
+				0E27505B1C37DAC500B0EF29 /* Character.swift */,
 			);
 			path = "Multiplayer-game-oop";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E27505C1C37DAC500B0EF29 /* Character.swift in Sources */,
 				0E2750441C37384F00B0EF29 /* ViewController.swift in Sources */,
 				0E2750421C37384F00B0EF29 /* AppDelegate.swift in Sources */,
 			);
