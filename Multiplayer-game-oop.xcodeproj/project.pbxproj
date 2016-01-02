@@ -13,9 +13,9 @@
 		0E2750491C37384F00B0EF29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750481C37384F00B0EF29 /* Assets.xcassets */; };
 		0E27504C1C37384F00B0EF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E27504A1C37384F00B0EF29 /* LaunchScreen.storyboard */; };
 		0E2750571C373EFE00B0EF29 /* background_noise.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750531C373EFE00B0EF29 /* background_noise.wav */; };
-		0E2750581C373EFE00B0EF29 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750541C373EFE00B0EF29 /* death.wav */; };
-		0E2750591C373EFE00B0EF29 /* club_bash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750551C373EFE00B0EF29 /* club_bash.wav */; };
-		0E27505A1C373EFE00B0EF29 /* Knife stab.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750561C373EFE00B0EF29 /* Knife stab.wav */; };
+		0E2750581C373EFE00B0EF29 /* die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750541C373EFE00B0EF29 /* die.wav */; };
+		0E2750591C373EFE00B0EF29 /* club-bash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750551C373EFE00B0EF29 /* club-bash.wav */; };
+		0E27505A1C373EFE00B0EF29 /* knife-stab.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E2750561C373EFE00B0EF29 /* knife-stab.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		0E27504B1C37384F00B0EF29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E27504D1C37384F00B0EF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E2750531C373EFE00B0EF29 /* background_noise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = background_noise.wav; sourceTree = "<group>"; };
-		0E2750541C373EFE00B0EF29 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
-		0E2750551C373EFE00B0EF29 /* club_bash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = club_bash.wav; sourceTree = "<group>"; };
-		0E2750561C373EFE00B0EF29 /* Knife stab.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Knife stab.wav"; sourceTree = "<group>"; };
+		0E2750541C373EFE00B0EF29 /* die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = die.wav; sourceTree = "<group>"; };
+		0E2750551C373EFE00B0EF29 /* club-bash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "club-bash.wav"; sourceTree = "<group>"; };
+		0E2750561C373EFE00B0EF29 /* knife-stab.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "knife-stab.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				0E2750531C373EFE00B0EF29 /* background_noise.wav */,
-				0E2750541C373EFE00B0EF29 /* death.wav */,
-				0E2750551C373EFE00B0EF29 /* club_bash.wav */,
-				0E2750561C373EFE00B0EF29 /* Knife stab.wav */,
+				0E2750541C373EFE00B0EF29 /* die.wav */,
+				0E2750551C373EFE00B0EF29 /* club-bash.wav */,
+				0E2750561C373EFE00B0EF29 /* knife-stab.wav */,
 				0E2750411C37384F00B0EF29 /* AppDelegate.swift */,
 				0E2750431C37384F00B0EF29 /* ViewController.swift */,
 				0E2750451C37384F00B0EF29 /* Main.storyboard */,
@@ -134,12 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2750581C373EFE00B0EF29 /* death.wav in Resources */,
-				0E27505A1C373EFE00B0EF29 /* Knife stab.wav in Resources */,
+				0E2750581C373EFE00B0EF29 /* die.wav in Resources */,
+				0E27505A1C373EFE00B0EF29 /* knife-stab.wav in Resources */,
 				0E27504C1C37384F00B0EF29 /* LaunchScreen.storyboard in Resources */,
 				0E2750571C373EFE00B0EF29 /* background_noise.wav in Resources */,
 				0E2750491C37384F00B0EF29 /* Assets.xcassets in Resources */,
-				0E2750591C373EFE00B0EF29 /* club_bash.wav in Resources */,
+				0E2750591C373EFE00B0EF29 /* club-bash.wav in Resources */,
 				0E2750471C37384F00B0EF29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
